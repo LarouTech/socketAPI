@@ -1,9 +1,16 @@
 {
   "name": "socketapi",
   "version": "1.0.0",
-  "description": "Testing socketAPi, elastic beanstack and setup a code pipeline",
+  "description": "",
   "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,8 +22,5 @@
   "bugs": {
     "url": "https://github.com/LarouTech/socketAPI/issues"
   },
-  "homepage": "https://github.com/LarouTech/socketAPI#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/LarouTech/socketAPI#readme"
 }
